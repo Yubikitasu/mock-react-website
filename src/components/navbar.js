@@ -26,21 +26,21 @@ function Navbar() {
     return (
             <div className="navbar">
             <div className="navbar-brand">
-                <Link to="./">Vouis Le Trouix</Link>
+                <Link to="/mock-react-website/">Vouis Le Trouix</Link>
             </div>
             <div className="navbar-links">
-                <Link to="./news"><div className="navbar-link-content">What's new</div></Link>
-                <Link to="./shirts"><div className="navbar-link-content">Shirts</div></Link>
-                <Link to="./trousers"><div className="navbar-link-content">Trousers</div></Link>
-                <Link to="./handbags"><div className="navbar-link-content">Handbags</div></Link>
-                <Link to="./men"><div className="navbar-link-content">Men</div></Link>
-                <Link to="./women"><div className="navbar-link-content">Women</div></Link>
-                <Link to="./children"><div className="navbar-link-content">Children</div></Link>
+                <Link to="/mock-react-website/news"><div className="navbar-link-content">What's new</div></Link>
+                <Link to="/mock-react-website/shirts"><div className="navbar-link-content">Shirts</div></Link>
+                <Link to="/mock-react-website/trousers"><div className="navbar-link-content">Trousers</div></Link>
+                <Link to="/mock-react-website/handbags"><div className="navbar-link-content">Handbags</div></Link>
+                <Link to="/mock-react-website/men"><div className="navbar-link-content">Men</div></Link>
+                <Link to="/mock-react-website/women"><div className="navbar-link-content">Women</div></Link>
+                <Link to="/mock-react-website/children"><div className="navbar-link-content">Children</div></Link>
             </div>
             <div className="navbar-signup">
-                <Link to="./contact"><div className="navbar-link-content">Contact</div></Link>
-                <Link to="./login"><div className="navbar-link-content">Login</div></Link>
-                <Link to="./signup"><div className="navbar-link-content">Sign up</div></Link>
+                <Link to="/mock-react-website/contact"><div className="navbar-link-content">Contact</div></Link>
+                <Link to="/mock-react-website/login"><div className="navbar-link-content">Login</div></Link>
+                <Link to="/mock-react-website/signup"><div className="navbar-link-content">Sign up</div></Link>
                 <div className="navbar-link-content"><AiOutlineSearch /></div>
                 <div className="navbar-link-content"><AiOutlineUser /></div>
                 <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
@@ -53,20 +53,20 @@ function Navbar() {
             </div>
             <div className={`navbar-list-mobile ${open}`} style={{textAlign: "center"}}>
                 <div className={`list-mobile`}>
-                        <li><Link to="./news">What's new</Link></li>
-                        <li><Link to="./shirts">Shirts</Link></li>
-                        <li><Link to="./trousers">Trousers</Link></li>
-                        <li><Link to="./handbags">Handbags</Link></li>
-                        <li><Link to="./men">Men</Link></li>
-                        <li><Link to="./women">Women</Link></li>
-                        <li><Link to="./children">Children</Link></li>
-                        <li><Link to="./contact">Contact</Link></li>
-                        <li><Link to="./login">Login</Link></li>
-                        <li><Link to="./signup">Sign Up</Link></li>
+                        <li><Link to="/mock-react-website/news">What's new</Link></li>
+                        <li><Link to="/mock-react-website/shirts">Shirts</Link></li>
+                        <li><Link to="/mock-react-website/trousers">Trousers</Link></li>
+                        <li><Link to="/mock-react-website/handbags">Handbags</Link></li>
+                        <li><Link to="/mock-react-website/men">Men</Link></li>
+                        <li><Link to="/mock-react-website/women">Women</Link></li>
+                        <li><Link to="/mock-react-website/children">Children</Link></li>
+                        <li><Link to="/mock-react-website/contact">Contact</Link></li>
+                        <li><Link to="/mock-react-website/login">Login</Link></li>
+                        <li><Link to="/mock-react-website/signup">Sign Up</Link></li>
                         <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center", width: "100%"}}>
-                            <li><Link to="./"><AiOutlineSearch /></Link></li>
-                            <li><Link to="./"><AiOutlineUser /></Link></li>
-                            <li><Link to="./"><AiOutlineShopping /></Link></li>
+                            <li><Link to="/mock-react-website/"><AiOutlineSearch /></Link></li>
+                            <li><Link to="/mock-react-website/"><AiOutlineUser /></Link></li>
+                            <li><Link to="/mock-react-website/"><AiOutlineShopping /></Link></li>
                         </div>
                 </div>
             </div>

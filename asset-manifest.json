@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1bae8302.css",
-    "main.js": "/static/js/main.d3c517a3.js",
-    "static/js/787.884e199e.chunk.js": "/static/js/787.884e199e.chunk.js",
-    "static/media/Simple-white-short-sleeve.jpg": "/static/media/Simple-white-short-sleeve.4261a2af57570ecb5e64.jpg",
-    "static/media/childbannerlarge.jpg": "/static/media/childbannerlarge.ba5f185068361f0015af.jpg",
-    "static/media/One-strip-long-sleeve.jpg": "/static/media/One-strip-long-sleeve.6d1a6567f03bef7f9237.jpg",
-    "static/media/Simple-gray-short-sleeve.jpg": "/static/media/Simple-gray-short-sleeve.5b0377a40f233f1b627e.jpg",
-    "static/media/Female-Winter-Collection-Slim-Jacket.jpg": "/static/media/Female-Winter-Collection-Slim-Jacket.c0ccaf9e123b5da9a70d.jpg",
-    "static/media/Short-sleeve-special-edition.jpg": "/static/media/Short-sleeve-special-edition.b1cf7cb4c218a6478d81.jpg",
-    "static/media/womenbannerlarge.jpg": "/static/media/womenbannerlarge.2c8117935114bec3f8ad.jpg",
-    "static/media/Female-suit-special-edition.jpg": "/static/media/Female-suit-special-edition.de1ccbb03baf6fb67e07.jpg",
-    "static/media/Cotton-jacket-long-sleeve.jpg": "/static/media/Cotton-jacket-long-sleeve.55ae2ce46ce4fe9022b3.jpg",
-    "static/media/Female-Old-Paris-special-edition-jacket.jpg": "/static/media/Female-Old-Paris-special-edition-jacket.c135d2ea70dde60c4042.jpg",
-    "static/media/menbannerlarge.jpg": "/static/media/menbannerlarge.6218a0a1d4a9259e648c.jpg",
-    "index.html": "/index.html",
-    "main.1bae8302.css.map": "/static/css/main.1bae8302.css.map",
-    "main.d3c517a3.js.map": "/static/js/main.d3c517a3.js.map",
-    "787.884e199e.chunk.js.map": "/static/js/787.884e199e.chunk.js.map"
+    "main.css": "/mock-react-website/static/css/main.1bae8302.css",
+    "main.js": "/mock-react-website/static/js/main.26ab4fae.js",
+    "static/js/787.884e199e.chunk.js": "/mock-react-website/static/js/787.884e199e.chunk.js",
+    "static/media/Simple-white-short-sleeve.jpg": "/mock-react-website/static/media/Simple-white-short-sleeve.4261a2af57570ecb5e64.jpg",
+    "static/media/childbannerlarge.jpg": "/mock-react-website/static/media/childbannerlarge.ba5f185068361f0015af.jpg",
+    "static/media/One-strip-long-sleeve.jpg": "/mock-react-website/static/media/One-strip-long-sleeve.6d1a6567f03bef7f9237.jpg",
+    "static/media/Simple-gray-short-sleeve.jpg": "/mock-react-website/static/media/Simple-gray-short-sleeve.5b0377a40f233f1b627e.jpg",
+    "static/media/Female-Winter-Collection-Slim-Jacket.jpg": "/mock-react-website/static/media/Female-Winter-Collection-Slim-Jacket.c0ccaf9e123b5da9a70d.jpg",
+    "static/media/Short-sleeve-special-edition.jpg": "/mock-react-website/static/media/Short-sleeve-special-edition.b1cf7cb4c218a6478d81.jpg",
+    "static/media/womenbannerlarge.jpg": "/mock-react-website/static/media/womenbannerlarge.2c8117935114bec3f8ad.jpg",
+    "static/media/Female-suit-special-edition.jpg": "/mock-react-website/static/media/Female-suit-special-edition.de1ccbb03baf6fb67e07.jpg",
+    "static/media/Cotton-jacket-long-sleeve.jpg": "/mock-react-website/static/media/Cotton-jacket-long-sleeve.55ae2ce46ce4fe9022b3.jpg",
+    "static/media/Female-Old-Paris-special-edition-jacket.jpg": "/mock-react-website/static/media/Female-Old-Paris-special-edition-jacket.c135d2ea70dde60c4042.jpg",
+    "static/media/menbannerlarge.jpg": "/mock-react-website/static/media/menbannerlarge.6218a0a1d4a9259e648c.jpg",
+    "index.html": "/mock-react-website/index.html",
+    "main.1bae8302.css.map": "/mock-react-website/static/css/main.1bae8302.css.map",
+    "main.26ab4fae.js.map": "/mock-react-website/static/js/main.26ab4fae.js.map",
+    "787.884e199e.chunk.js.map": "/mock-react-website/static/js/787.884e199e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bae8302.css",
-    "static/js/main.d3c517a3.js"
+    "static/js/main.26ab4fae.js"
   ]
 }

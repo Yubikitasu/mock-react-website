@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div style={{height: 92 + 'px', width: 100 + '%', backgroundColor: 'black'}}></div>
-      <Routes>
+      {/* <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/news" element={<News />}></Route>
           <Route path="/shirts" element={<Shirts />}></Route>
@@ -31,7 +31,7 @@ function App() {
           <Route path="/contact" element={<Contact/ >}></Route>
           <Route path="/login" element={<Login/ >}></Route>
           <Route path="/Signup" element={<Signup/ >}></Route>
-      </Routes>
+      </Routes> */}
       <Footer />
     </div>
   );

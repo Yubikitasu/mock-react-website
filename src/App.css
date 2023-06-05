@@ -47,7 +47,7 @@ body {
   left: 0;
   width: 100%;
   height: 80px;
-  z-index: 1;
+  z-index: 10;
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -365,4 +365,50 @@ li {
   margin-top: 0px;
   opacity: 1;
   transition: linear 0.74s;
+}
+
+.Men {
+  width: 100%;
+  background-color: black;
+  height: calc(2000vh + 100vh);
+}
+
+.canvas-container {
+  height: calc(100vh - 80px);
+  width: 100%;
+  position: fixed;
+  top: 80px;
+  left: 0;
+}
+
+#section {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: linear 0.2s;
+  z-index: 1;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  text-align: center;
+}
+
+.loader-container {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

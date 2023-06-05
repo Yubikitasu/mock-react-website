@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mock-react-website/static/css/main.1bae8302.css",
-    "main.js": "/mock-react-website/static/js/main.a8310fae.js",
+    "main.css": "/mock-react-website/static/css/main.d1b49a6e.css",
+    "main.js": "/mock-react-website/static/js/main.05fe358a.js",
     "static/js/787.884e199e.chunk.js": "/mock-react-website/static/js/787.884e199e.chunk.js",
     "static/media/Simple-white-short-sleeve.jpg": "/mock-react-website/static/media/Simple-white-short-sleeve.4261a2af57570ecb5e64.jpg",
     "static/media/childbannerlarge.jpg": "/mock-react-website/static/media/childbannerlarge.ba5f185068361f0015af.jpg",
@@ -15,12 +15,12 @@
     "static/media/Female-Old-Paris-special-edition-jacket.jpg": "/mock-react-website/static/media/Female-Old-Paris-special-edition-jacket.c135d2ea70dde60c4042.jpg",
     "static/media/menbannerlarge.jpg": "/mock-react-website/static/media/menbannerlarge.6218a0a1d4a9259e648c.jpg",
     "index.html": "/mock-react-website/index.html",
-    "main.1bae8302.css.map": "/mock-react-website/static/css/main.1bae8302.css.map",
-    "main.a8310fae.js.map": "/mock-react-website/static/js/main.a8310fae.js.map",
+    "main.d1b49a6e.css.map": "/mock-react-website/static/css/main.d1b49a6e.css.map",
+    "main.05fe358a.js.map": "/mock-react-website/static/js/main.05fe358a.js.map",
     "787.884e199e.chunk.js.map": "/mock-react-website/static/js/787.884e199e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bae8302.css",
-    "static/js/main.a8310fae.js"
+    "static/css/main.d1b49a6e.css",
+    "static/js/main.05fe358a.js"
   ]
 }

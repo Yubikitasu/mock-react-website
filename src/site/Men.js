@@ -9,6 +9,7 @@ import demostate from './state.json';
 import { useRef, useEffect } from 'react'; 
 
 export default function Men() {
+  document.documentElement.scrollTop = 0;
   const demoSheet = getProject('Demo Project', {state: demostate}).sheet('Demo Sheet');
   const object = useGLTF("./tommy_hilfiger_jacket/scene.gltf").scene;
   const html = document.documentElement;
@@ -58,16 +59,18 @@ export default function Men() {
     })
   })
   return (
-    <div className="Men">
-      <div className="canvas-container" ref={canvas_container_ref}>
-        <Canvas>
-          <SheetProvider sheet={demoSheet}>
-            <e.primitive theatreKey="object" editableType="mesh" object={object} position={[0, -5, 0]} />
-            <e.pointLight theatreKey="light" position={[0, 10, 10]} />
-          </SheetProvider>
-        </Canvas>
+    <div className="Men_container">
+      <div className="Men">
+        <div className="canvas-container" ref={canvas_container_ref}>
+          <Canvas>
+            <SheetProvider sheet={demoSheet}>
+              <e.primitive theatreKey="object" editableType="mesh" object={object} position={[0, -5, 0]} />
+              <e.pointLight theatreKey="light" position={[0, 10, 10]} />
+            </SheetProvider>
+          </Canvas>
+        </div>
+        <div id="section" ref={ref}><div>Scroll to see animation.<br /><div class='button'>Skip animation</div></div></div>
       </div>
-      <div id="section" ref={ref}><div>Scroll to see animation.<br /><div class='button'>Skip animation</div></div></div>
     </div>
   );
 }

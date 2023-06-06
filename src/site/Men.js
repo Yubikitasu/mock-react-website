@@ -1,18 +1,12 @@
 import "../App.css";
 import { Canvas } from "@react-three/fiber";
-// import Model from "./components/Model";
-import { OrbitControls, useGLTF } from "@react-three/drei";
+import { useGLTF } from "@react-three/drei";
 import * as core from "@theatre/core";
-// import studio from "@theatre/studio";
 import {getProject} from '@theatre/core';
-import extension from '@theatre/r3f/dist/extension';
 import { SheetProvider } from "@theatre/r3f";
 import {editable as e} from '@theatre/r3f';
 import demostate from './state.json';
 import { useRef, useEffect } from 'react'; 
-
-// studio.initialize();
-// studio.extend(extension)
 
 export default function Men() {
   const demoSheet = getProject('Demo Project', {state: demostate}).sheet('Demo Sheet');
@@ -29,7 +23,11 @@ export default function Men() {
       const timeIndex = currentScroll / maxScroll * 15;
       demoSheet.sequence.position = timeIndex;
       saection.style.opacity = 1;
-      if (Math.round(demoSheet.sequence.position) == 2) {
+      if (demoSheet.sequence.position == 0) {
+        saection.style.opacity = 1;
+        saection.innerHTML = "<div>Scroll to see animation.<br /><div class='button'>Skip animation</div></div>";
+      }
+      else if (Math.round(demoSheet.sequence.position) == 2) {
         saection.innerText = "Introducing";
         saection.style.opacity = 1;
       } else if (Math.round(demoSheet.sequence.position) == 4) {
@@ -66,11 +64,10 @@ export default function Men() {
           <SheetProvider sheet={demoSheet}>
             <e.primitive theatreKey="object" editableType="mesh" object={object} position={[0, -5, 0]} />
             <e.pointLight theatreKey="light" position={[0, 10, 10]} />
-            {/* <OrbitC ontrols /> */}
           </SheetProvider>
         </Canvas>
       </div>
-      <div id="section" ref={ref}></div>
+      <div id="section" ref={ref}><div>Scroll to see animation.<br /><div class='button'>Skip animation</div></div></div>
     </div>
   );
 }

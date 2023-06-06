@@ -4,6 +4,7 @@ import Trending from "../components/Trending";
 
 
 function Home() {
+    document.documentElement.scrollTop = 0;
     return (
         <div className="home">
             <ImageBannerLarge />

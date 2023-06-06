@@ -29,21 +29,23 @@ function App() {
     <div className="App">
       <Navbar />
       <div style={{height: 92 + 'px', width: 100 + '%', backgroundColor: 'black'}}></div>
-      <Suspense fallback={<Loader />}>
         <Routes>
             <Route path="mock-react-website/" element={<Home />}></Route>
             <Route path="mock-react-website/news" element={<News />}></Route>
             <Route path="mock-react-website/shirts" element={<Shirts />}></Route>
             <Route path="mock-react-website/trousers" element = {<Trousers />}></Route>
             <Route path="mock-react-website/women" element = {<Women />}></Route>
-            <Route path="mock-react-website/men" element={<Men/ >}></Route>
+            <Route path="mock-react-website/men" element={(
+              <Suspense fallback={<Loader />}>
+                <Men/ >
+              </Suspense>
+            )}></Route>
             <Route path="mock-react-website/handbags" element={<Handbags/ >}></Route>
             <Route path="mock-react-website/children" element={<Children/ >}></Route>
             <Route path="mock-react-website/contact" element={<Contact/ >}></Route>
             <Route path="mock-react-website/login" element={<Login/ >}></Route>
             <Route path="mock-react-website/signup" element={<Signup/ >}></Route>
         </Routes>
-      </Suspense>
       <Footer />
     </div>
   );

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mock-react-website/static/css/main.8d540d7d.css",
-    "main.js": "/mock-react-website/static/js/main.795cf0d8.js",
-    "static/js/27.5350bb4a.chunk.js": "/mock-react-website/static/js/27.5350bb4a.chunk.js",
+    "main.css": "/mock-react-website/static/css/main.a42867ea.css",
+    "main.js": "/mock-react-website/static/js/main.12d5e624.js",
+    "static/js/787.884e199e.chunk.js": "/mock-react-website/static/js/787.884e199e.chunk.js",
     "static/media/Simple-white-short-sleeve.jpg": "/mock-react-website/static/media/Simple-white-short-sleeve.4261a2af57570ecb5e64.jpg",
     "static/media/childbannerlarge.jpg": "/mock-react-website/static/media/childbannerlarge.ba5f185068361f0015af.jpg",
     "static/media/One-strip-long-sleeve.jpg": "/mock-react-website/static/media/One-strip-long-sleeve.6d1a6567f03bef7f9237.jpg",
@@ -14,10 +14,13 @@
     "static/media/Cotton-jacket-long-sleeve.jpg": "/mock-react-website/static/media/Cotton-jacket-long-sleeve.55ae2ce46ce4fe9022b3.jpg",
     "static/media/Female-Old-Paris-special-edition-jacket.jpg": "/mock-react-website/static/media/Female-Old-Paris-special-edition-jacket.c135d2ea70dde60c4042.jpg",
     "static/media/menbannerlarge.jpg": "/mock-react-website/static/media/menbannerlarge.6218a0a1d4a9259e648c.jpg",
-    "index.html": "/mock-react-website/index.html"
+    "index.html": "/mock-react-website/index.html",
+    "main.a42867ea.css.map": "/mock-react-website/static/css/main.a42867ea.css.map",
+    "main.12d5e624.js.map": "/mock-react-website/static/js/main.12d5e624.js.map",
+    "787.884e199e.chunk.js.map": "/mock-react-website/static/js/787.884e199e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d540d7d.css",
-    "static/js/main.795cf0d8.js"
+    "static/css/main.a42867ea.css",
+    "static/js/main.12d5e624.js"
   ]
 }
